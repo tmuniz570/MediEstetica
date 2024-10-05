@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    color: midnightblue;
+}
+
+a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+img{
+    max-width: 100%;
+}
