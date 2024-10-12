@@ -9,7 +9,7 @@ body {
     grid-template-areas: "header header header header"
                          "hero hero hero hero"
                          "about about about about"
-                         "services services services services"
+                         /* "services services services services" */
                          "pre-footer pre-footer pre-footer pre-footer"
                          "footer footer footer footer";
     grid-template-columns: repeat(4, 1fr);
@@ -275,12 +275,16 @@ body {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 40px;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
 .footer h5{
     font-weight: 500;
     font-size: 2rem;
+}
+
+.footer a:hover .logo{
+    color: #fff;
 }
 
 .footer .social-media i {
